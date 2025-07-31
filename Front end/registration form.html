@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration table</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+        table {
+            border: 1px solid yellow;
+            border-collapse: collapse;
+            background-color: blueviolet(0, 200, 255);
+        }
+        login {
+            color: aqua;
+        }
+        
+    </style>
+</head>
+<body style=" background-color:red;color:purple;">
+    <form action="#" method="get">
+        <table border="1">
+            <tr>
+                <td colspan="2" align="center">Registation form</td>
+            </tr>
+            <tr>
+                <td>first name:</td>
+                <td><input type="text" name="first name" id="first name"></td>
+            </tr>
+            <tr>
+                <td> last name:</td>
+                <td><input type="text" name="last name" id="last name"></td>
+            </tr>
+            <tr>
+                <td> Gender:</td>
+                <td><input type="radio" name="Gender" id="Gender">Male
+               <input type="radio" name="Gender" id="Gender">Female </td>
+                 </tr>
+                 <tr>
+                    <td>password:</td>
+                    <td><input type="number"></td>
+                 </tr>
+                 <tr>
+                    <td>Confirm password</td>
+                    <td><input type="password"></td>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Address</td>
+                    <td><textarea rows="10" cols="50"></textarea></td>
+                 </tr>
+                 <tr>
+                    <td>languages known</td>
+                    <td><input type="checkbox">TELUGU
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">English</td>
+                 </tr>
+                 <tr>
+                    <td colspan="2" align="center" bgcolor="green"><input type="submit" value="login"><input type="submit" value="reset">
+                    </td>
+                 </tr>
+                 <style>
+                 input[type = "text"],
+                 input[type = "number"],
+                 input[type = "submit"],
+                 input [type = "reset"] {
+                    border-radius:50px;
+                 }
+
+        </table>
+    </form>
+    
+</body>
+</html>
